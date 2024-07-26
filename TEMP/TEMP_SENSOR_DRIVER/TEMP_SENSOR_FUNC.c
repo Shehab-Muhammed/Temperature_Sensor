@@ -1,0 +1,5 @@
+#include "TEMP_SENSOR_FUNC.h"
+void	TEMP_SENSOR_INIT(void)
+{
+	ADC_INIT_DIFFERENCTIAL_MODE();
+}
